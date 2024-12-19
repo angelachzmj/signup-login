@@ -1,0 +1,66 @@
+/*GENERAL*/
+
+body {
+  display: flex;
+  justify-content: center; /* Centra horizontalmente */
+  align-items: center; /* Centra verticalmente */
+  height: 100vh; /* Ocupa toda la altura de la ventana */
+  padding: 40vh;
+  background-color: rgb(0, 0, 0);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*REGISTRO*/
+
+/*TITULO*/
+
+.container .mt-5{
+    text-align: center;
+  }
+
+/*BOTON DE REGISTRO*/
+
+.btn-custom {
+  background-color: rgb(20, 206, 172); /* Cambio esto al color que prefiera */
+  color: rgba(255, 255, 255, 0.968); /* Cambio el color del texto */
+}
+
+.btn-custom:hover {
+  background-color: rgb(
+    0,
+    255,
+    217
+  ); /* Color al pasar el mouse sobre el botón */
+}
+
+/*REDIRECCION A LOGIN*/
+
+.btn-link {
+  color: rgb(0, 223, 182); /* Cambia 'blue' por el color que prefieras */
+  text-decoration: none; /* Esto elimina el subrayado por defecto */
+}
+
+.btn-link:hover {
+  color: rgb(
+    0,
+    255,
+    217
+  ); /* Cambia el color cuando el mouse está sobre el enlace */
+}
+
+/* Personalizar la posición del ícono dentro del campo de contraseña */
+.password-container {
+  position: relative;
+}
+
+.toggle-password {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+#password {
+  padding-right: 30px; /* Añadir espacio para el ícono dentro del input */
+}
